@@ -5,7 +5,7 @@ This is a userbot made for telegram. I made this userbot with help of all other 
 
 # Installing
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) 
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Aid-3n/DedSec-Robot)
 
 ### EXTRA HELP
 

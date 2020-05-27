@@ -15,6 +15,6 @@ async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit("`I am NOT DED😎 \nI Have No Issues Till Now\n\nTelethon version: 6.9.0\nPython: 3.7.3\n\n`"
                      f"`My owner`: {DEFAULTUSER}\n"
-                     "`\nPython: 3.7.3\nFork by:` @Aid_3n \n"
+                     "`Fork by:` @Aid_3n \n"
                      "`Database Status: Awesome🎖️\n\nLet's Try Some Plugins🕶️\n`"
-                     "[Deploy this userbot Now](https://github.com/Aiden232/US3RB0T)")
+                     "[Deploy this userbot Now](https://github.com/Aid-3n/DedSec-BOT)")

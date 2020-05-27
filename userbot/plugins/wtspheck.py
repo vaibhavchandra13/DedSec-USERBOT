@@ -1,5 +1,5 @@
 """just for fun
-.whatsapp"""
+.wtspheck"""
 
 
 
@@ -47,7 +47,7 @@ async def _(event):
 
 
 
-    if input_str == "whatsapp":
+    if input_str == "wtspheck":
 
 
 

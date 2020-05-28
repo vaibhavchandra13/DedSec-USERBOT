@@ -3,9 +3,12 @@ This is a userbot made for telegram. I made this userbot with help of all other 
 
 # FORK AT YOUR OWN RISK
 
-** USING ANY USERBOT CAN CAUSE PERMANENT BAN OF YOUR TG-ACCOUNT
 
-# Installing
+#USE THIZ USERBOT AT YOUR OWN RISK,SUR
+
+
+
+# INSTALLING IS SIMPLE AS HELL😂
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Aid-3n/DedSec-BOT)
 

@@ -3,8 +3,7 @@ This is a userbot made for telegram. I made this userbot with help of all other 
 
 # FORK AT YOUR OWN RISK
 
-
-#USE THIZ USERBOT AT YOUR OWN RISK,SUR
+DON'T BLAME ME FOR ANY WRONG PLUGINS,USE IT FOR GOOD NOT FOR REVENGE<blah_blah>
 
 
 

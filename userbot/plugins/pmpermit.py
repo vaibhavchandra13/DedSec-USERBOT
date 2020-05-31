@@ -11,10 +11,11 @@ PREV_REPLY_MESSAGE = {}
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
-USER_BOT_WARN_ZERO = "`You were spamming my Inbox With No Reason,So You've Been Blocked+Reported.` "
-USER_BOT_NO_WARN = ("`Please Tell Your Matter First,Don't Spam Here `"
-                    f"{DEFAULTUSER}`'s inbox.\n\n"
-                    "You Were Messaging With No Reason,This Is Your Final Chance;Tell The Matter.`\n\n")
+USER_BOT_WARN_ZERO = "***You Failed To Join The Group You Are Blocked Now😁😢*** "
+USER_BOT_NO_WARN = ("**Hi, How Are You Don't Send Messages Here😒**"
+                    "IF You Continue Sending Messages You Will Be **Blocked**"
+                    "Join [HERE](https://tx.me//OVERHERE_MATE) To Send Messages To Me\n"
+                    "You Have Two Options Either You Can Go [HERE](https://tx.me//OVERHERE_MATE) OR Get Blocked\n\n")
                    
                    
 
@@ -37,7 +38,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                     del PREV_REPLY_MESSAGE[chat.id]
                 pmpermit_sql.approve(chat.id, reason)
                 await event.edit("Approved to pm [{}](tg://user?id={})".format(firstname, chat.id))
-                await asyncio.sleep(3)
+                await asyncio.sleep(2)
                 await event.delete()
 
 
@@ -136,7 +137,7 @@ if Var.PRIVATE_GROUP_ID is not None:
     async def do_pm_permit_action(chat_id, event):
         if chat_id not in PM_WARNS:
             PM_WARNS.update({chat_id: 0})
-        if PM_WARNS[chat_id] == 5:
+        if PM_WARNS[chat_id] == 3:
             r = await event.reply(USER_BOT_WARN_ZERO)
             await asyncio.sleep(3)
             await event.client(functions.contacts.BlockRequest(chat_id))

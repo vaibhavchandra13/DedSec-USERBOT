@@ -12,10 +12,9 @@ PREV_REPLY_MESSAGE = {}
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 USER_BOT_WARN_ZERO = "***You Failed To Join The Group You Are Blocked Now😁😢*** "
-USER_BOT_NO_WARN = ("**Hi, How Are You Don't Send Messages Here😒**"
-                    "IF You Continue Sending Messages You Will Be **Blocked**"
-                    "Join [HERE](https://tx.me//OVERHERE_MATE) To Send Messages To Me\n"
-                    "You Have Two Options Either You Can Go [HERE](https://tx.me//OVERHERE_MATE) OR Get Blocked\n\n")
+USER_BOT_NO_WARN = ("**Hi, How Are You? Don't Send Messages Here😒\n\n**"
+                    "IF You Continue Sending Messages You Will Be **Blocked**\n\n"
+                    "Join [HERE](https://tx.me/OVERHERE_MATE) To Send Messages To Me\n\n")
                    
                    
 

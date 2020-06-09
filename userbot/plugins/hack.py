@@ -53,7 +53,7 @@ async def _(event):
             "`Hacking... 100%\n█████████HACKED███████████ `",
             "`Packing Cache Of User's Data Into My Local Directory`", 
             "`Process Completed With No Errors`",    
-            "`Targeted Account Hacked...\n\nPay 69$ To` @Aid_3n `To Stay Safe..`"
+            "`Targeted Account Hacked...\n\nPay 69$ To` @Ankith_m `To Stay Safe..`"
             ]
 
             for i in animation_ttl:
